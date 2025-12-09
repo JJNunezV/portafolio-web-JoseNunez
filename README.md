@@ -8,6 +8,7 @@ Soy **José Jaime Núñez Vázquez**, estudiante de **Ingeniería en Sistemas Co
 ## 🔑 Datos Académicos
 * **Nombre Completo:** José Jaime Núñez Vázquez
 * **Matrícula:** 230120398
+* **Grupo:** [Sexto Turno Matutino]
 
 ---
 
@@ -16,7 +17,7 @@ A continuación, se listan las principales tecnologías y herramientas que he ut
 
 ### Frontend
 * **Lenguajes:** HTML5, CSS3, JavaScript (ES6+)
-* **Frameworks/Librerías:**  React.js
+* **Frameworks/Librerías:** React.js
 * **Conceptos:** Diseño Responsivo (Responsive Design), Manipulación del DOM.
 
 ### Backend y Bases de Datos
@@ -32,7 +33,7 @@ A continuación, se listan las principales tecnologías y herramientas que he ut
 
 ## 📚 Índice de Contenido
 
-### 📂 Proyectos Destacados
+### 📂 Proyecto del Concurso
 
 | Proyecto | Descripción | Enlace a la Documentación |
 | :--- | :--- | :--- |
@@ -40,21 +41,25 @@ A continuación, se listan las principales tecnologías y herramientas que he ut
 
 ### 📝 Prácticas Académicas
 
-Aquí puedes encontrar la documentación y el código fuente de las prácticas realizadas durante el curso:
+Aquí puedes encontrar la documentación y el código fuente de las **11 prácticas** realizadas durante el curso:
 
-* **Práctica 01:** Introducción a HTML Básico
-    * [Ver Documentación](./practicas/practica01-html-basico/README.md)
-* **Práctica 02:** Estilos y Layout con CSS
-    * [Ver Documentación](./practicas/practica02-css-layout/README.md)
-* **Práctica 03:** JavaScript y Manipulación del DOM
-    * [Ver Documentación](./practicas/practica03-js-dom/README.md)
-* **Práctica 04:** [Nombre de la Práctica 4]
-    * [Ver Documentación](./practicas/practica04-nombre-claro/README.md)
-* **[Añade más prácticas según sea necesario...]**
+| No. | Título de la Práctica | Enlace a la Documentación |
+| :--- | :--- | :--- |
+| **01** | Hello World Básico | [Ver `README.md`](./practicas/practica01-helloworld-basico/README.md) |
+| **02** | Lorem Ipsum | [Ver `README.md`](./practicas/practica02-lorelispum/README.md) |
+| **03** | Calculadora Básica | [Ver `README.md`](./practicas/practica03-calculadorabasica/README.md) |
+| **04** | Tarjeta Visual | [Ver `README.md`](./practicas/practica04-tarjetavisual/README.md) |
+| **05** | CV (Versión 1) | [Ver `README.md`](./practicas/practica05-cv/README.md) |
+| **06** | CV (Versión 2) | [Ver `README.md`](./practicas/practica06-cv-v2/README.md) |
+| **07** | CV (Versión 3) | [Ver `README.md`](./practicas/practica07-cv-v3/README.md) |
+| **08** | Coffee Project | [Ver `README.md`](./practicas/practica08-coffeeproject/README.md) |
+| **09** | Complementos JS | [Ver `README.md`](./practicas/practica09-complementosJS/README.md) |
+| **10** | Login HTML-JS | [Ver `README.md`](./practicas/practica10-loginHTML-JS/README.md) |
+| **11** | API Example | [Ver `README.md`](./practicas/practica11-API-Example/README.md) |
 
 ---
 
-### 🚀 Instrucciones Adicionales
+### 🚀 Instrucciones Adicionales Sobre Mi Portafolio
 
 Para explorar cualquier proyecto o práctica:
 

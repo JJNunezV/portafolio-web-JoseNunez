@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 03 | Calculadora Básica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculadora">
+        <h2>Calculadora JS</h2>
+        <input type="text" id="num1" placeholder="Primer número" aria-label="Primer número">
+        <input type="text" id="num2" placeholder="Segundo número" aria-label="Segundo número">
+        <br>
+        <button onclick="realizarOperacion('sumar')">Sumar (+)</button>
+        <button onclick="realizarOperacion('restar')">Restar (-)</button>
+        <button onclick="realizarOperacion('multiplicar')">Multiplicar (*)</button>
+        <button onclick="realizarOperacion('dividir')">Dividir (/)</button>
+        <br>
+        <input type="text" id="resultado" placeholder="Resultado" disabled aria-label="Resultado">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

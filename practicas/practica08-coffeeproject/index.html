@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 08 | The Coffee Landing Page</title>
+    <meta name="description" content="Landing page de un café, optimizada para la responsividad y el diseño moderno.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="#home" class="nav-item">HOME</a>
+            <a href="#about" class="nav-item">ABOUT</a>
+            <a href="#menu" class="nav-item">MENU</a>
+            <a href="#where" class="nav-item">WHERE</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 class="logo-title">The<br>Coffee</h1>
+            <p class="tagline">Una pausa para el código y la vida.</p>
+        </div>
+        <div class="info-overlay">
+            <span class="schedule">🕔 Abierto de 6am a 5pm</span>
+            <p class="address">📍 Camino Arenero  1100</p>
+        </div>
+    </section>
+
+    <section id="about" class="about-section content-padding">
+        <h2 class="section-title">ACERCA DE NUESTRO CAFÉ</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>
+                    **The Coffee** fue fundado con la misión de fusionar el arte del barismo artesanal con un ambiente propicio para la creatividad y el trabajo. Nuestro origen se encuentra en la pasión por el buen café y la necesidad de un espacio tranquilo para enfocarse.
+                </p>
+                <p>
+                    Creemos en el comercio justo y en granos de alta calidad. Cada taza es el resultado de un proceso minucioso, desde la selección del grano hasta la preparación final. Un lugar perfecto para desarrolladores, estudiantes, y amantes del café.
+                </p>
+                <button class="btn btn-dark">VER MÁS DE NUESTRA HISTORIA</button>
+            </div>
+            <figure class="about-image">
+                <img src="https://images.unsplash.com/photo-1497935321869-aa440b8fe906?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Café en grano">
+            </figure>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section content-padding">
+        <h2 class="section-title">NUESTRO MENÚ</h2>
+        <div class="menu-items-grid">
+            <article class="menu-item">
+                <h3>Espresso Clásico</h3>
+                <p>El corazón de todo, shot concentrado de nuestro blend especial.</p>
+                <span class="price">$35</span>
+            </article>
+            <article class="menu-item">
+                <h3>Latte Full-Stack</h3>
+                <p>Doble shot de espresso con leche texturizada y un toque de caramelo.</p>
+                <span class="price">$55</span>
+            </article>
+            <article class="menu-item">
+                <h3>Cold Brew System</h3>
+                <p>Café infusionado en frío por 16 horas. Alto en cafeína y refrescante.</p>
+                <span class="price">$60</span>
+            </article>
+            <article class="menu-item">
+                <h3>Té Chai Debug</h3>
+                <p>Mezcla de especias y té negro. Perfecto para una pausa mental.</p>
+                <span class="price">$50</span>
+            </article>
+        </div>
+    </section>
+
+    <section id="where" class="contact-section content-padding">
+        <h2 class="section-title">HAZ UNA RESERVACIÓN</h2>
+        <div class="contact-grid">
+            
+            <div class="map-container">
+                <img src="https://via.placeholder.com/600x300/e0e0e0/333333?text=UBICACION+AQUI" alt="Ubicación del café">
+            </div>
+
+            <form class="reservation-form">
+                <p>¿Planeas una reunión de estudio o un evento? Reserva tu espacio:</p>
+                
+                <input type="text" id="nombre" placeholder="Nombre completo" required>
+                
+                <input type="email" id="email" placeholder="Correo electrónico" required>
+                
+                <input type="date" id="fecha" required>
+
+                <input type="number" id="personas" placeholder="Número de personas" min="1" max="50" required>
+                
+                <button type="submit" class="btn btn-accent">CONFIRMAR RESERVACIÓN</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer class="main-footer">
+        <p>Powered by José Jaime Núñez Vázquez · Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

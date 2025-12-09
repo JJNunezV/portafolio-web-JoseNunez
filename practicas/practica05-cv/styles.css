@@ -1,0 +1,208 @@
+/* -- Variables y configuración general -- */
+:root {
+    --clr-primary: #007bff; 
+    --clr-secondary: #6c757d; 
+    --clr-background: #f8f9fa; 
+    --clr-text-main: #343a40;
+    --clr-border: #dee2e6;
+    --clr-accent-light: #e6f0ff;
+}
+
+/* -- Reset y fuentes -- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: var(--clr-background);
+    color: var(--clr-text-main);
+    line-height: 1.6;
+}
+
+.cv-container {
+    max-width: 850px;
+    margin: 40px auto;
+    background: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* --- Header y Contacto --- */
+.header-section {
+    background: var(--clr-primary);
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-section h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+}
+
+.header-section h2 {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.contact-info {
+    font-style: normal;
+    font-size: 0.9rem;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* --- Contenido Principal --- */
+main {
+    padding: 40px;
+}
+
+.main-content {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--clr-border);
+}
+
+.main-content:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.main-content h3 {
+    font-size: 1.2rem;
+    color: var(--clr-primary);
+    border-left: 4px solid var(--clr-primary);
+    padding-left: 10px;
+    margin: 0 0 15px 0;
+    font-weight: 700;
+}
+
+/* --- Habilidades (Tags) --- */
+.skill-tags {
+    margin-top: 10px;
+}
+
+.skill-tags span {
+    display: inline-block;
+    background: var(--clr-accent-light);
+    color: var(--clr-primary);
+    padding: 5px 12px;
+    border-radius: 4px;
+    margin: 4px 8px 4px 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* --- Experiencia y Educación --- */
+.meta-info {
+    color: var(--clr-secondary);
+    font-size: 0.9rem;
+    margin: 0 0 10px 0;
+}
+
+#experiencia h4, #educacion h4 {
+    font-size: 1.05rem;
+    color: var(--clr-text-main);
+    margin: 0 0 5px 0;
+}
+
+#experiencia ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 5px;
+    font-size: 0.95rem;
+}
+
+/* --- Proyectos --- */
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+}
+#proyectos li {
+    margin-bottom: 8px;
+}
+#proyectos a {
+    color: var(--clr-primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+#proyectos a:hover {
+    text-decoration: underline;
+}
+
+/* --- Barras de Progreso (Dominio de Tecnologías) --- */
+.progress-item {
+    margin-bottom: 15px;
+}
+
+.progress-item h4 {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+    color: var(--clr-text-main);
+}
+
+.progress-bar-base {
+    height: 8px;
+    background: var(--clr-border);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar-value {
+    height: 100%;
+    background: var(--clr-primary);
+    width: 0%; 
+    border-radius: 4px;
+    transition: width 1s ease-out; 
+}
+
+/* --- Footer --- */
+.footer-section {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.85rem;
+    color: var(--clr-secondary);
+}
+
+/* --- Responsive (Asegura que el header se adapte en móviles) --- */
+@media (max-width: 600px) {
+    .cv-container {
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .header-section {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 20px;
+    }
+    .contact-info {
+        text-align: left;
+        margin-top: 20px;
+    }
+    .main-content h3 {
+        font-size: 1.1rem;
+    }
+    main {
+        padding: 20px;
+    }
+}

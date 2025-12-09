@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica 11 | Explorador de API (JSONPlaceholder)</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-wrapper">
+        <header>
+            <h1>🌐 Explorador de API (Usuarios y Posts)</h1>
+            <p>Consumo de datos asíncronos de la API JSONPlaceholder (estable).</p>
+        </header>
+
+        <div class="controls-panel">
+            <label for="tipo">Selecciona qué consultar:</label>
+            <select id="tipo" aria-label="Seleccionar tipo de datos">
+                <option value="users">Usuarios</option>
+                <option value="posts">Publicaciones (Posts)</option>
+            </select>
+            <button id="obtener" class="btn">Obtener Datos</button>
+        </div>
+
+        <div id="resultado" class="results-container">
+            <p class="initial-message">Selecciona un tipo de dato y haz clic en "Obtener Datos".</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

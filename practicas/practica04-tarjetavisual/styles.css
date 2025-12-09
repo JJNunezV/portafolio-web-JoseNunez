@@ -1,0 +1,130 @@
+body {
+    background: #e9ecef; 
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    perspective: 1000px;
+}
+.profile-card-wrapper {
+    width: 380px;
+    height: 500px;
+}
+.profile-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.9s ease-in-out;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.profile-card-wrapper:hover .profile-card {
+    transform: rotateY(180deg);
+}
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: #ffffff; 
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    backface-visibility: hidden;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.profile-figure img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #004085; 
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 1.8rem;
+    color: #004085;
+    margin: 10px 0 5px;
+}
+.role {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+.contact-info p {
+    font-size: 0.9rem;
+    color: #333;
+}
+.skills-summary {
+    margin-top: auto; 
+}
+.skills-summary span {
+    display: inline-block;
+    background: #e6f0ff;
+    color: #004085;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+
+.card-face.back {
+    transform: rotateY(180deg);
+    background: #f8f9fa;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+.card-face.back h2 {
+    color: #004085;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    border-bottom: 2px solid #ced4da;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.data-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 20px 0;
+    width: 100%;
+}
+.data-list li {
+    text-align: left;
+    padding: 5px 0;
+    border-bottom: 1px dotted #e9ecef;
+}
+.label {
+    font-weight: bold;
+    color: #6c757d;
+    display: inline-block;
+    width: 120px;
+}
+.tech-list li {
+    background: #e2e6ea;
+    padding: 3px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 3px;
+    font-size: 0.9rem;
+}
+.github-link-btn {
+    text-decoration: none;
+    color: #fff;
+    background: #28a745; 
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: auto;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.github-link-btn:hover {
+    background: #1e7e34;
+}

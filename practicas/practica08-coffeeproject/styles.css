@@ -1,0 +1,295 @@
+/* --- Variables y Reset --- */
+:root {
+    --clr-dark: #212121;
+    --clr-light: #ffffff;
+    --clr-accent: #8b5e35; 
+    --clr-bg-main: #fcfcfc;
+    --clr-bg-section: #f5f5f5;
+    --font-header: 'Playfair Display', serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-body);
+    background: var(--clr-bg-main);
+    color: var(--clr-dark);
+    line-height: 1.6;
+}
+
+/* --- Layout de la Barra de Navegación --- */
+.main-header {
+    background: var(--clr-dark);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-item {
+    color: var(--clr-light);
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-item:hover {
+    background: var(--clr-accent);
+    color: var(--clr-light);
+}
+
+/* --- Sección de Héroe (Home) --- */
+.hero-section {
+    position: relative;
+    height: 90vh; 
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.45); /* Capa oscura */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+}
+
+.logo-title {
+    color: white;
+    font-family: var(--font-header);
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.0;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.tagline {
+    color: var(--clr-accent);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.info-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    z-index: 10;
+}
+
+.schedule, .address {
+    font-size: 0.9rem;
+}
+
+/* --- Estilos Generales de Contenido --- */
+.content-padding {
+    padding: 60px 5vw;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-family: var(--font-header);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--clr-dark);
+    text-transform: uppercase;
+}
+
+/* --- Botones --- */
+.btn {
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-dark {
+    background: var(--clr-dark);
+    color: var(--clr-light);
+    margin-top: 20px;
+}
+.btn-dark:hover {
+    background: #444;
+}
+
+.btn-accent {
+    background: var(--clr-accent);
+    color: var(--clr-light);
+}
+.btn-accent:hover {
+    background: #6a4425;
+}
+
+/* --- Sección About --- */
+.about-section {
+    background: var(--clr-bg-section);
+}
+
+.about-grid {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-image img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* --- Sección Menú --- */
+.menu-section {
+    background: var(--clr-light);
+}
+
+.menu-items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.menu-item {
+    background: #fcfcfc;
+    padding: 20px;
+    border-left: 5px solid var(--clr-accent);
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.menu-item h3 {
+    color: var(--clr-accent);
+    font-family: var(--font-header);
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.menu-item .price {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: var(--clr-dark);
+    font-size: 1.2rem;
+}
+
+/* --- Sección Contacto/Formulario --- */
+.contact-section {
+    background: var(--clr-bg-section);
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.map-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: var(--clr-light);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* --- Footer --- */
+.main-footer {
+    background: var(--clr-dark);
+    color: var(--clr-text-sidebar);
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+}
+
+/* --- Responsividad --- */
+@media (max-width: 900px) {
+    .about-grid, .contact-grid {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .hero-section {
+        height: 50vh;
+    }
+
+    .logo-title {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo-title {
+        font-size: 2.8rem;
+    }
+    .info-overlay {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        padding: 15px 20px;
+    }
+    .tagline {
+        font-size: 1.2rem;
+    }
+    .reservation-form {
+        padding: 20px;
+    }
+}

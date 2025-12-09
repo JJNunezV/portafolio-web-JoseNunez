@@ -1,0 +1,155 @@
+/* --- Variables y Configuración General --- */
+:root {
+    --clr-accent: #2ecc71; /* Verde esmeralda (estabilidad) */
+    --clr-dark: #34495e; /* Fondo oscuro (profesional) */
+    --clr-text-light: #ecf0f1;
+    --clr-card-bg: #FFFFFF;
+    --clr-error: #e74c3c;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--clr-dark);
+    color: var(--clr-text-light);
+    text-align: center;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.main-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #34495e;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* --- Títulos y Controles --- */
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--clr-text-light);
+    text-shadow: 2px 2px var(--clr-accent);
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #bdc3c7;
+    margin-bottom: 30px;
+}
+
+.controls-panel {
+    margin: 20px 0 40px;
+    padding: 15px;
+    background: #2c3e50;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+select, .btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #7f8c8d;
+    font-family: 'Roboto', sans-serif;
+}
+
+select {
+    background-color: #ecf0f1;
+    color: var(--clr-dark);
+}
+
+.btn {
+    background-color: var(--clr-accent);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.btn:hover {
+    background-color: #27ae60;
+    transform: translateY(-2px);
+}
+
+/* --- Contenedor de Resultados --- */
+.results-container {
+    margin-top: 2rem;
+    padding: 10px;
+    min-height: 100px;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    text-align: left;
+}
+
+/* --- Tarjetas de Datos --- */
+.card {
+    background: var(--clr-card-bg);
+    border-left: 5px solid var(--clr-accent);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    color: #333;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.card h3 {
+    color: var(--clr-accent);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    margin: 5px 0;
+}
+
+.card a {
+    color: var(--clr-accent);
+}
+
+/* --- Mensajes de Estado --- */
+.initial-message, .loading-message, .error-message {
+    font-size: 1.1rem;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #ecf0f1;
+    background: #2c3e50;
+}
+
+.error-message {
+    color: var(--clr-error);
+    background: #fadbd8;
+    border: 1px solid #e74c3c;
+}
+
+/* --- Responsividad --- */
+@media (max-width: 600px) {
+    .controls-panel {
+        flex-direction: column;
+        gap: 10px;
+    }
+    select, .btn {
+        width: 100%;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+}
