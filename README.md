@@ -8,7 +8,7 @@ Soy **José Jaime Núñez Vázquez**, estudiante de **Ingeniería en Sistemas Co
 ## 🔑 Datos Académicos
 * **Nombre Completo:** José Jaime Núñez Vázquez
 * **Matrícula:** 230120398
-* **Grupo:** [Sexto Turno Matutino]
+* **Grupo:** Sexto Turno Matutino
 
 ---
 
