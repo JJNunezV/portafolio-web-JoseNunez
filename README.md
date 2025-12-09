@@ -45,9 +45,9 @@ Aquí puedes encontrar la documentación y el código fuente de las **11 prácti
 
 | No. | Título de la Práctica | Enlace a la Documentación |
 | :--- | :--- | :--- |
-| **01** | Hello World Básico | [Ver `README.md`](./practicas/practica01-helloworld-basico/README.md) |
+| **01** | Hello World Básico | [Ver `README.md`](./practicas/practica01-helloworld/README.md) |
 | **02** | Lorem Ipsum | [Ver `README.md`](./practicas/practica02-lorelispum/README.md) |
-| **03** | Calculadora Básica | [Ver `README.md`](./practicas/practica03-calculadorabasica/README.md) |
+| **03** | Calculadora | [Ver `README.md`](./practicas/practica03-calculadora/README.md) |
 | **04** | Tarjeta Visual | [Ver `README.md`](./practicas/practica04-tarjetavisual/README.md) |
 | **05** | CV (Versión 1) | [Ver `README.md`](./practicas/practica05-cv/README.md) |
 | **06** | CV (Versión 2) | [Ver `README.md`](./practicas/practica06-cv-v2/README.md) |
