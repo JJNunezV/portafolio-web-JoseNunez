@@ -50,11 +50,10 @@ Aquí puedes encontrar la documentación y el código fuente de las prácticas r
     * [Ver Documentación](./practicas/practica03-js-dom/README.md)
 * **Práctica 04:** [Nombre de la Práctica 4]
     * [Ver Documentación](./practicas/practica04-nombre-claro/README.md)
-* **[Añade más prácticas según sea necesario...]**
 
 ---
 
-### 🚀 Instrucciones Adicionales
+### 🚀 Instrucciones Adicionales Sobre Mi Portafolio
 
 Para explorar cualquier proyecto o práctica:
 
