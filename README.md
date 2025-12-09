@@ -66,5 +66,5 @@ Aquí se encuentra la documentación y el código fuente de las **11 prácticas*
 
 Para explorar a fondo el portafolio:
 
-1.  Navega a la carpeta correspondiente (`practicas/` o `proyecto_innovacion_evoplay/`).
+1.  Navega a la carpeta correspondiente (`practicas/` o `proyecto_concurso/`).
 2.  Consulta el archivo **`README.md`** específico dentro de la subcarpeta para obtener los objetivos técnicos, *stack* utilizado e instrucciones de ejecución local.
