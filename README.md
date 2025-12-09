@@ -1,67 +1,70 @@
 # 💻 Portafolio de Proyectos Web | José Jaime Núñez Vázquez
 
-## Presentación Personal
-Soy **José Jaime Núñez Vázquez**, estudiante de **Ingeniería en Sistemas Computacionales** en el TecNM. Mi pasión se centra en el desarrollo web *full-stack*, enfocado en la creación de soluciones eficientes y interfaces de usuario intuitivas. Este portafolio es una muestra de mis habilidades y proyectos académicos desarrollados.
+## 🚀 Presentación y Competencias Full-Stack
+
+Soy **José Jaime Núñez Vázquez**, estudiante de **Ingeniería en Sistemas Computacionales** en el TecNM. Mi pasión se centra en el desarrollo web *Full-Stack*, destacando mi capacidad para construir soluciones **eficientes, robustas y distribuidas**.
+
+Este portafolio es la demostración completa de mis habilidades, cubriendo desde la maquetación fundamental hasta la implementación de **arquitectura MERN (MongoDB, Express, React, Node)** en entornos de producción.
 
 ---
 
-## 🔑 Datos Académicos
-* **Nombre Completo:** José Jaime Núñez Vázquez
-* **Matrícula:** 230120398
-* **Grupo:** Sexto Turno Matutino
+## 🔑 Datos Académicos y Equipo
+
+| Categoría | Detalle |
+| :--- | :--- |
+| **Nombre Completo** | José Jaime Núñez Vázquez |
+| **Matrícula** | 230120398 |
+| **Grupo** | Sexto Turno Matutino |
+| **Colaboradores (Proyecto EvoPlay)** | Eliand Andres Murillo Ramos, David Quiroz Morales |
 
 ---
 
-## 🛠️ Tecnologías que Domino
-A continuación, se listan las principales tecnologías y herramientas que he utilizado en mis proyectos y prácticas:
+## 🛠️ Tecnologías que Domino: Stack MERN Avanzado
 
-### Frontend
-* **Lenguajes:** HTML5, CSS3, JavaScript (ES6+)
-* **Frameworks/Librerías:** React.js
-* **Conceptos:** Diseño Responsivo (Responsive Design), Manipulación del DOM.
+A continuación, se listan las principales tecnologías y herramientas que he utilizado en mis proyectos, con énfasis en el **manejo de la concurrencia y la seguridad**:
 
-### Backend y Bases de Datos
-* **Lenguajes:** PHP, Python, Java
-* **Frameworks/Entornos:** Node.js (Express)
-* **Bases de Datos:** PostgreSQL, MongoDB
-
-### Herramientas y Control de Versiones
-* **Control de Versiones:** Git, GitHub
-* **IDEs/Editores:** VS Code
+| Componente | Tecnologías Clave | Conceptos Demostrados |
+| :--- | :--- | :--- |
+| **Frontend/UI** | **React.js**, HTML5, CSS3, JavaScript (ES6+), Axios. | Diseño Responsivo, CSS Grid, **Manejo de Estados**, **Peticiones Asíncronas Robustas**. |
+| **Backend/Core** | **Node.js (Express)**, PHP, Python, Java. | Arquitectura RESTful, **JWT (JSON Web Tokens)** para autenticación. |
+| **Base de Datos** | **MongoDB Atlas**, PostgreSQL. | **Subdocumentos**, persistencia en la nube. |
+| **DevOps/Control** | Git, GitHub, Vercel, Render. | Manejo de *Merge Conflicts*, **Integración de Repositorios**, Despliegue Distribuido. |
 
 ---
 
 ## 📚 Índice de Contenido
 
-### 📂 Proyecto del Concurso
+### 🏆 Proyecto Destacado
 
-| Proyecto | Descripción | Enlace a la Documentación |
-| :--- | :--- | :--- |
-| **XVIII Concurso de Innovación** | [Breve descripción, ej: Plataforma para gestión de recursos hídricos.] | [Ir a `proyecto_concurso/README.md`](./proyecto_concurso/README.md) |
+Este proyecto, desarrollado para el Concurso de Innovación, es el punto focal de mis habilidades Full-Stack.
+
+| Proyecto | Descripción | Enlace a la Documentación | Enlace de Producción |
+| :--- | :--- | :--- | :--- |
+| **XVIII Concurso de Innovación: EvoPlay** | Plataforma Deportiva con arquitectura **MERN Stack** y lógica multideporte. | [Ir a `README.md`](./proyecto_concurso/README.md) | [Abrir App](https://evo-play-9bvr.vercel.app) |
 
 ### 📝 Prácticas Académicas
 
-Aquí puedes encontrar la documentación y el código fuente de las **11 prácticas** realizadas durante el curso:
+Aquí se encuentra la documentación y el código fuente de las **11 prácticas** que forman la base de mis conocimientos en desarrollo web:
 
-| No. | Título de la Práctica | Enlace a la Documentación |
-| :--- | :--- | :--- |
-| **01** | Hello World Básico | [Ver `README.md`](./practicas/practica01-helloworld/README.md) |
-| **02** | Lorem Ipsum | [Ver `README.md`](./practicas/practica02-lorelispum/README.md) |
-| **03** | Calculadora | [Ver `README.md`](./practicas/practica03-calculadora/README.md) |
-| **04** | Tarjeta Visual | [Ver `README.md`](./practicas/practica04-tarjetavisual/README.md) |
-| **05** | CV (Versión 1) | [Ver `README.md`](./practicas/practica05-cv/README.md) |
-| **06** | CV (Versión 2) | [Ver `README.md`](./practicas/practica06-cv-v2/README.md) |
-| **07** | CV (Versión 3) | [Ver `README.md`](./practicas/practica07-cv-v3/README.md) |
-| **08** | Coffee Project | [Ver `README.md`](./practicas/practica08-coffeeproject/README.md) |
-| **09** | Complementos JS | [Ver `README.md`](./practicas/practica09-complementosJS/README.md) |
-| **10** | Login HTML-JS | [Ver `README.md`](./practicas/practica10-loginHTML-JS/README.md) |
-| **11** | API Example | [Ver `README.md`](./practicas/practica11-API-Example/README.md) |
+| No. | Título de la Práctica | Enfoque Técnico Principal | Enlace a la Documentación |
+| :--- | :--- | :--- | :--- |
+| **01** | Hello World Básico | Fundamentos de Maquetación HTML5. | [Ver `README.md`](./practicas/practica01-helloworld/README.md) |
+| **02** | Lorem Ipsum | Estructura de Texto y Layout con CSS. | [Ver `README.md`](./practicas/practica02-lorelispum/README.md) |
+| **03** | Calculadora | Estilos y Componentes de Interfaz. | [Ver `README.md`](./practicas/practica03-calculadora/README.md) |
+| **04** | Tarjeta Visual | Posicionamiento y CSS Básico. | [Ver `README.md`](./practicas/practica04-tarjetavisual/README.md) |
+| **05** | CV (Versión 1) | Maquetación Inicial de Curriculum Vitae. | [Ver `README.md`](./practicas/practica05-cv/README.md) |
+| **06** | CV (Versión 2) | Refinamiento de Estilos y Uso de Fuentes. | [Ver `README.md`](./practicas/practica06-cv-v2/README.md) |
+| **07** | CV (Versión 3) | Diseño Responsivo y Estilos Finales para CV. | [Ver `README.md`](./practicas/practica07-cv-v3/README.md) |
+| **08** | Coffee Project | Maquetación Avanzada con **CSS Grid/Flexbox** y Responsividad. | [Ver `README.md`](./practicas/practica08-coffeeproject/README.md) |
+| **09** | Complementos JS | **Manipulación del DOM** y Lógica Interactiva (To-Do List, Galería). | [Ver `README.md`](./practicas/practica09-complementosJS/README.md) |
+| **10** | Login HTML-JS | **Manejo de Sesión (localStorage)** y Lógica de Autenticación. | [Ver `README.md`](./practicas/practica10-loginHTML-JS/README.md) |
+| **11** | API Example | **Consumo Asíncrono de API (`fetch`, `async/await`)** y Renderizado Dinámico. | [Ver `README.md`](./practicas/practica11-API-Example/README.md) |
 
 ---
 
-### 🚀 Instrucciones Adicionales Sobre Mi Portafolio
+## 🚀 Instrucciones para Navegación y Ejecución
 
-Para explorar cualquier proyecto o práctica:
+Para explorar a fondo el portafolio:
 
-1.  Navega a la carpeta correspondiente (`practicas/` o `proyecto_concurso/`).
-2.  Consulta el archivo `README.md` específico para obtener detalles, objetivos e instrucciones de ejecución.
+1.  Navega a la carpeta correspondiente (`practicas/` o `proyecto_innovacion_evoplay/`).
+2.  Consulta el archivo **`README.md`** específico dentro de la subcarpeta para obtener los objetivos técnicos, *stack* utilizado e instrucciones de ejecución local.
